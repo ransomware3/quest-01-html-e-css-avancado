@@ -1,0 +1,77 @@
+@media(max-width: 1300px){
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 3.8rem;
+    }
+
+    .main-container .logo-container{
+        width: 100%;
+        margin-bottom: 6rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-container .device{
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .main-container .info{
+        text-align: center;
+        padding: 6rem 0.5rem;
+    }
+
+    .main-container .social{
+        justify-content: center;
+    }
+}
+
+
+@media(max-width: 524px){
+    main{
+        background: url(../images/bg-mobile.svg) no-repeat center var(--primary-strong);
+        background-size: cover;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    .main-container .logo-container .logo{
+        width: 200px;
+    }
+
+    .main-container .info .btn-register{
+        padding: 1rem 6.9rem;
+        font-size: 1.3rem;
+    }
+}
+
+
+@media(max-width: 375px){
+    main{
+        background: url(../images/bg-mobile.svg) no-repeat var(--primary-strong);
+    }
+
+    h1{
+        font-size: 2.4rem;
+    }
+
+    p{
+        font-size: 1.7rem;
+    }
+
+    .main-container .logo-container .logo{
+        width: 140px;
+    }
+
+    .main-container .social a{
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+
+    .main-container .social i{
+        font-size: 1.1rem;
+    }
+}
